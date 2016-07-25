@@ -1,17 +1,20 @@
-div{
- padding: 20px 10px ;
- border: 2px solid purple;
- background-color:pink; 
- }
-.cajita{
-	background-color: pink;
-	padding: 20px 20px 50px 50px ;
-	text-align: center;	
+.padre {
+	margin: 120px 60px 30.5px 60px;
+	padding: 40px 20px 70px 100px;
+	border: 20px solid #9900FF;
+	border-left: 10px solid #9900FF;
+	border-right: 10px solid #9900FF;
+	/*SOLO PARA QUE SE VEA BONITO*/
+	background-color: #F9CB9C;
 }
-p{
-	border: 1px dashed green;
+
+.hijo {
+
+	border: 2px dashed #38761D;
 	background-color: white;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	text-align: center;
+	
+	/*SOLO PARA QUE SE VEA BONITO*/
+	text-align: center;	
+	line-height: 50px;
+	height: 50px;
 }
