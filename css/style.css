@@ -1,20 +1,20 @@
 .padre {
 	margin: 120px 60px 30.5px 60px;
-	padding: 40px 20px 70px 100px;
 	border: 20px solid #9900FF;
 	border-left: 10px solid #9900FF;
 	border-right: 10px solid #9900FF;
-	/*SOLO PARA QUE SE VEA BONITO*/
-	background-color: #F9CB9C;
+	border-radius:4px;
+	
 }
 
 .hijo {
-
+	padding: 40px 20px 70px 100px;
+	background-color:#F79F81;	
+}
+.nieto{
 	border: 2px dashed #38761D;
 	background-color: white;
-	
-	/*SOLO PARA QUE SE VEA BONITO*/
-	text-align: center;	
+	text-align: center;
 	line-height: 50px;
-	height: 50px;
+	height:60px;
 }
